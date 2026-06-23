@@ -29,7 +29,7 @@
 
 2. **Настройка**:
    - Клонировать репозиторий:
-     git clone https://github.com/karishhhka/Sport-Shop.git
+     git clone [https://github.com/karishhhka/Sport-Shop.git](https://github.com/karishhhka/Sport-Shop-Web_application_for_booking_sporting_goods_Gridneva_K_K.git)
      
    - Установить зависимости:
      composer install
