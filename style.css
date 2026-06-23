@@ -1,0 +1,1144 @@
+@font-face {
+  font-family: 'Tactic Sans Extended';
+  src: url('./fonts/tactic-sans-exd-12.woff') format('woff'),
+       url('./fonts/tactic-sans-exd-12.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Rauda Slab Inline';
+  src: url('./fonts/rauda-slab.woff') format('woff'),
+       url('./fonts/rauda-slab.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TuNninG Pro';
+  src: url('./fonts/tunning-pro.woff') format('woff'),
+       url('./fonts/tunning-pro.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+  }
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  .head{
+    height: 90px;
+    background: #282525;
+    display: flex;
+  }
+  .menu{
+    margin-top: 20px;
+  }
+  .menu-top{
+    display: flex;
+    list-style: none;
+  }
+  .menu-items{
+    font-family: 'Futura PT';
+    font-weight: 400;
+    font-size: 32px;
+    margin-right: 70px;
+  }
+  .menu-item{
+    margin-right: 400px;
+    margin-left: 50px;
+
+  }
+  .link{
+    text-decoration: none; 
+    color: #fff;
+  }
+  .menu-it{
+    margin-left: 320px;
+    display: flex;
+  }
+  .menu-it-el{
+    margin-right: 80px;
+  }
+.slider {
+    position: relative;
+    height: 820px;
+    width: 1920px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: calc(100% * 4); 
+}
+
+.slides img {
+    width: 1920px; 
+
+    height: auto;
+}
+.clider-btn-one{
+    position: absolute;
+    top: 357px;
+    left: 59px;  
+}
+.clider-btn-two{
+    position: absolute;
+    top: 357px;
+    left: 1717px; 
+}
+.first-text{
+  /* font-weight: 400; */
+font-size: 50px;
+text-align: right;
+color: #fff;
+font-family: 'Rauda Slab Inline';
+width: 408px;
+height: 324px;
+position: absolute;
+top: 223px;
+left: 1100px;
+}
+.first-link{
+  border: 3px solid #fff;
+width: 217px;
+height: 68px; 
+position: absolute;
+top: 614px;
+left: 1276px;
+text-align: center;
+}
+.first-link-item{
+  font-family:'Tactic Sans Extended';
+  font-style: italic;
+font-weight: 400;
+font-size: 26px;
+line-height: 208%;
+color: #fff;
+text-decoration: none;
+}
+.brand{
+  height: 397px;
+  background: #f6f6f6;
+}
+.brand-text{
+padding-top: 61px;
+margin-left: 82px;
+}
+.brand-text-item{
+  font-family: 'Tactic Sans Extended';
+font-style: italic;
+font-weight: 400;
+font-size: 40px;
+color: #000;
+}
+.brand-img{
+  margin-top: 31px;
+  margin-left: 121px;
+  display: flex;
+}
+.brand-img-item-frst{
+  margin-right: 135px;
+  width: 150px;
+  height: 52px;
+  margin-top: 91px;
+}
+.brand-img-item-two{
+  width: 237px;
+height: 41px;
+margin-right: 135px;
+margin-top: 91px;
+}
+.brand-img-items-three{
+  width: 150px;
+  height: 115px;
+  margin-right: 135px;
+  margin-top: 59px;
+}
+.brand-img-items-four{
+  width: 150px;
+height: 87px;
+margin-right: 135px;
+margin-top: 72px;
+}
+.brand-img-items-five{
+  width: 166px;
+  height: 140px;
+  margin-right: 135px;
+  margin-top: 52px;
+}
+.brand-img-items-six{
+  width: 138px;
+  height: 105px;
+  margin-right: 135px;
+  margin-top: 69px;
+}
+.three{
+  height: 682px;
+  display: flex;
+  background: #282525;
+}
+.three-text{
+  width: 1000px;
+}
+.three-text-imts{
+  font-family: 'Rauda Slab Inline';
+  font-weight: 400;
+font-size: 64px;
+line-height: 117%;
+color: #fff;
+width: 528px;
+height: 225px;
+padding-top: 157px;
+margin-left: 80px;
+}
+.three-text-button{
+  width: 317px;
+height: 78px;
+border: 3px solid #fff;
+text-align: center;
+margin-left: 80px;
+margin-top: 71px;
+}
+.three-text-button-link{
+  font-family: 'Tactic Sans Extended';
+  font-style: italic;
+font-weight: 400;
+font-size: 36px;
+line-height: 208%;
+color: #fff;
+text-decoration:none ;
+}
+.four{
+  display: flex;
+}
+.blok-one{
+ background-image: url(./img/Group\ 6.png);
+ width: 613px;
+height: 743px;
+margin-right: 40px;
+}
+.blok-two{
+  background-image: url(./img/Group\ 5.png);
+  width: 613px;
+height: 743px;
+margin-right: 40px;
+}
+
+.blok-three{
+  background-image: url(./img/Group\ 7.png);
+  width: 613px;
+height: 743px;
+}
+.blok-one-conteiner{
+width: 166px;
+height: 76px;
+margin-top: 48px;
+margin-left: 28px;
+}
+.blok-one-text{
+  font-family: "Rauda Slab Inline";
+  font-weight: 400;
+font-size: 40px;
+color: #ECECEC;
+margin-top: 474px;
+width: 295px;
+height: 80px;
+margin-left: 28px;
+}
+.blok-two-text{
+  font-family: "Rauda Slab Inline";
+  font-weight: 400;
+font-size: 40px;
+color: #ECECEC;
+margin-top: 474px;
+width: 505px;
+height: 80px;
+margin-left: 28px;
+}
+.blok-three-text{
+  font-family: "Rauda Slab Inline";
+  font-weight: 400;
+font-size: 40px;
+color: #ECECEC;
+margin-top: 474px;
+width: 430px;
+height: 80px;
+margin-left: 28px;
+}
+.blok-one-conteiner-link{
+  font-family: TuNninG Pro;
+  font-weight: 700;
+font-size: 32px;
+color: #ECECEC;
+width: 100px;
+height: 76px;
+text-decoration: none;
+}
+.five{
+  background: #F6F6F6;
+  height: 683px;
+  display: flex;
+}
+.blok-form{
+ width: 1000px;
+}
+.blok-form-text{
+  font-family: "Tactic Sans Extended";
+font-style: italic;
+font-weight: 400;
+font-size: 40px;
+color: #000;
+width: 583px;
+height: 96px;
+padding-top: 102px;
+margin-left: 137px;
+}
+.form{
+  margin-left: 150px;
+  margin-top: 30px;
+
+}
+.form_input{
+  font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 469%;
+color: #000;
+margin-top: 15px;
+width: 542px;
+height:   60px;
+border: none;
+border-bottom: 1px solid #000;
+background-color: transparent;
+}
+.form_btn{
+  width: 317px;
+height: 78px;
+border: 2px solid #282525;
+font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 312%;
+color: #282525;
+margin-top: 70px;
+margin-left: 100px;
+}
+.foot{
+  height: 110px;
+ background-color: #282525;
+padding-left: 57px;
+  padding-top: 33px;
+}
+.foot-items{
+  display: flex;
+}
+.foot-items-link{
+  width: 180px;
+  height: 91px;
+  margin-right: 105px;
+  margin-top: 5px;
+
+}
+.foot-items-links{
+  width: 190px;
+  height: 81px;
+  margin-right: 80px;
+  margin-top: 5px;
+
+}
+.foot-items-icons{
+ margin-left: 229px;
+ margin-top: 15px;
+
+}
+.foot-items-links-text{
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
+
+}
+.foot-items-img{
+  margin-right: 388px;
+  /* width: 89px;
+  height: 78px; */
+}
+.foot-items-icons-img{
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.feedback-link {
+  display: inline-block;
+  margin: 20px;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.feedback-link:hover {
+  color: #0056b3;
+}
+/* contacts */
+
+.contakt{
+  height: 805px;
+  background: #fff;
+
+}
+.con_flex{
+  display: flex;
+}
+.contakt_info{
+  font-weight: 400;
+  font-family: "Tactic Sans Extended", sans-serif;
+  font-size: 60px;
+color: #000;
+margin-left: 120px;
+margin-top: 70px;
+
+}
+.contakt_info_text{
+  width: 759px;
+  height: 516px;
+  margin-top: 60px;
+  margin-left: 120px;
+
+}
+.contakt_info_text_first{
+  font-weight: 400;
+  font-size: 48px;
+  color: #000;
+  font-family: "Futura PT";
+}
+.contakt_info_text_two{
+  font-weight: 300;
+font-size: 40px;
+color: #000;
+font-family: "Futura PT";
+margin-top: 41px;
+}
+.contakt_info_text_three{
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 40px;
+  color: #000;
+  margin-top: 41px;
+}
+.contakt_info_text_four{
+  display: flex;
+  margin-top: 65px;
+}
+.contakt_info_text_four_info{
+  display: flex;
+}
+.contakt_info_text_four_info__img{
+margin-right: 24px;
+}
+.contakt_info_text_four_info_text{
+  font-family: "Futura PT";
+  font-weight: 300;
+font-size: 32px;
+text-align: right;
+color: #000;
+margin-right: 51px;
+}
+.card{
+margin-left: 270px;
+margin-top: 90px;
+position: relative;
+z-index: 0;
+}
+.card_item{
+  border-radius: 30px;
+  width: 588px;
+  height: 455px;
+}
+
+/* modal windows */
+
+.modal_avtor {
+  font-family: "Rauda Slab Inline";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 187%;
+  color: #000;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.close {
+  float: right;
+  font-size: 80px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 5px;
+  width: 600px;
+  height: 700px;
+    text-align: center;
+}
+.modal_form{
+width: 446px;
+margin-left: 70px;
+}
+.input__form{
+font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+color: #000;
+border: none;
+border-bottom: 1px solid #000;
+background-color: transparent;
+width: 446px;
+height:40px;
+margin-top: 20px;
+}
+.modal__button{
+    width: 217px;
+height: 50px;
+border: 2px solid #282525;
+background-color: #f6f6f6;;
+font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 312%;
+color: #282525;
+margin-top: 30px;
+}
+.open-login-modal{
+font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 312%;
+color: #000;
+background-color: transparent;
+border: none;
+margin-top: 30px;
+}
+.open-inReg-modal{
+font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 312%;
+color: #000;
+background-color: transparent;
+border: none;
+margin-top: 30px;
+}
+
+/* catalog */
+.catalog{
+
+}
+.catalog_items{
+ display: flex;
+}
+.filter-form{
+ margin-left: 50px ;
+ max-width: 250px;
+ max-height: 800px;
+}
+.catalog_text{
+  font-family: "Tactic Sans Extended";
+font-style: italic;
+font-weight: 400;
+font-size: 60px;
+line-height: 117%;
+color: #000;
+margin-left: 100px;
+margin-top: 50px;
+}
+.filter{
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.filter-header{
+  font-family: "Tactic Sans Extended";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 187%;
+  color: #000;
+  margin-left: 20px;
+}
+.filter-form-text{
+ font-family: "Futura PT", sans-serif;
+font-weight: 400;
+font-size: 30px;
+line-height: 167%;
+color: #000;
+}
+.filter-form-input{
+  border: none;
+  width: 185px;
+height: 30px;
+background: transparent;
+font-family: "Futura PT", sans-serif;
+border-bottom: 3px solid #282525;
+margin-bottom: 40px;
+
+}
+.poisk{
+  font-family: "Tactic Sans Extended";
+  width: 1500px;
+  height: 60px;
+  margin-top: 60px;
+  margin-left: 70px;
+  font-style: italic;
+font-weight: 400;
+font-size: 24px;
+color: #000;
+padding-left: 20px;
+}
+.poisk_btn{
+  background-color: transparent;
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 320px;
+  left: 1794px;
+  cursor: pointer;
+}
+.products{
+  display: flex;
+  flex-wrap: wrap; /* Перенос карточек на новую строку */
+  gap: 20px; /* Расстояние между карточками */
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+.products_card{
+  background: #FFFFFF;
+  box-shadow: 0 33px 69px 0 rgba(0, 0, 0, 0.1);
+  width: calc(25% - 20px); /* 4 карточки в строке с учетом отступов */
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.products_card_img{
+  margin-left: 29px;
+  margin-top: 15px;
+}
+.products_card_text{
+  font-weight: 700;
+font-size: 20px;
+color: #000;
+font-family: "Futura PT";
+margin-left: 24px;
+margin-top: 10px;
+width: 242px;
+height: 57px;
+}
+.products_card_two{
+  font-family: "Futura PT";
+  font-weight: 400;
+font-size: 16px;
+color: #000;
+margin-top: 10px;
+margin-left: 24px;
+}
+.products_card_price{
+  font-family: "Futura PT";
+  font-weight: 700;
+font-size: 22px;
+line-height: 109%;
+color: #2f2f2f;
+margin-top: 12px;
+margin-left: 24px;
+}
+.products_card_btn{
+  width: 282px;
+height: 57px;
+box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7);
+background: #676565;
+font-family: "Futura PT";
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+border: none;
+margin-top: 26px;
+margin-left: 21px;
+}
+.products_card_twobtn{
+  border: 1px solid #676565;
+border-radius: 3px;
+width: 282px;
+height: 57px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background-color: transparent;
+margin-top: 22px;
+margin-left: 21px;
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #303030;
+font-family: "Futura PT";
+width: 282px;
+height: 56px;
+}
+.filter-form-button{
+  width: 200px;
+height: 40px;
+border: 2px solid #282525;
+font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 200;
+font-size: 13px;
+line-height: 312%;
+color: #282525;
+background-color: #ffffff;
+
+}
+/*  product  */
+.product{
+
+}
+.product_items{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 45px;
+}
+.product_img_itm{
+  width: 530px;
+height: 392px;
+}
+.product_info_text{
+  font-family: "Futura PT";
+  font-weight: 700;
+  font-size: 48px;
+  color: #000;
+
+  width: 780px;
+}
+.product_info_txttwo{
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+  margin-top: 30px;
+}
+.product_info_price{
+  font-family: "Futura PT";
+  font-weight: 700;
+font-size: 40px;
+line-height: 60%;
+color: #2f2f2f;
+margin-top: 53px;
+}
+.product_info_button{
+  width: 636px;
+height: 56px;
+box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7);
+background: #676565;
+font-family: "Futura PT";
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+border: none;
+margin-top: 30px;
+}
+.info_text{
+  width: 1666px;
+  margin-top: 80px;
+  margin-left: 120px;
+
+}
+.info_text_head{
+  font-family: "Futura PT";
+font-weight: 400;
+font-size: 48px;
+line-height: 62%;
+color: #000;
+}
+.info_text_body{
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 83%;
+  text-align: justify;
+  color: #000;
+  margin-top: 58px;
+}
+.info_text_spicok{
+  margin-top: 40px;
+margin-bottom: 100px;
+}
+.info_text_items{
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 83%;
+  text-align: justify;
+  color: #000;
+  margin-top: 25px;
+}
+
+
+.infopole{
+  height: 44px; 
+  background: #706f6f;
+
+}
+.infopole-blok{
+  margin-left: 120px;
+  display: flex;
+}
+.infopole-text{
+  font-family: "Tactic Sans Extended";
+  font-size: 20px;
+  color: #fff;  
+  margin-right: 10px;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+/* str history */
+
+.info{
+  margin-left: 100px;
+
+  display: flex;
+}
+.info-h1{
+  font-family: "Tactic Sans Extended", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 60px;
+line-height: 117%;
+color: #000;
+margin-top: 80px;
+}
+.info-items{
+
+}
+.info-items-text{
+  font-family: "Futura PT", sans-serif;
+font-weight: 300;
+font-size: 36px;
+line-height: 103%;
+text-align: justify;
+color: #000; 
+margin-top: 40px;
+}
+
+
+/* profile */
+.profile{
+  text-align: center;
+}
+.profile-info{
+  display: flex;
+  padding-left: 118px;
+margin-top: 40px;
+margin-bottom: 50px;
+}
+.profile-info-hr{
+  border: 1px solid #000;
+  width: 1231px;
+  height: 0px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.profile-info-h1{
+  font-family: "Tactic Sans Extended", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 107%;
+  color: #000;
+}
+.profile-items{
+  display: flex;
+  text-align: center;
+  margin-left: 350px;
+  margin-bottom: 40px;
+}
+.profile-items-container{
+  border-radius: 5px;
+  width: 514px;
+  height: 557px;
+  box-shadow: 0 50px 80px 0 rgba(53, 70, 94, 0.1), 0 -8px 14px 0 rgba(53, 70, 94, 0.02);
+background: #fff;
+text-align: center;
+margin-left: 50px;
+
+}
+.profile-items-container-h2{
+  font-family: "Futura PT", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+}
+.profile-items-container-p{
+  font-family: "Futura PT", sans-serif;
+font-weight: 350;
+font-size: 24px;
+color: #000;
+margin-bottom: 20px;
+}
+.profile-items-container-img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* adminka */
+
+.adpanel{
+  height: 90px;
+  background: #282525;
+}
+
+.adpanel-h1{
+  font-family: "Rauda Slab Inline", sans-serif;
+  margin-left: 115px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+}
+.adminitems{
+min-width: 259px;
+margin-top: 20px;
+margin-left: 20px;
+
+}
+.adminitems-cont{
+  border-radius: 10px;
+fill: #fff;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+padding: 15px 20px;
+margin-bottom: 20px;
+}
+
+.adminitems-cont-a{
+  text-decoration: none;
+  font-family: "Futura PT", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #000;
+
+}
+.admin-info{
+  display: flex;
+
+}
+
+.admin-dashboard {
+  padding: 2rem;
+}
+
+.dashboard-title {
+
+  margin-bottom: 1.5rem;
+  font-family: "Futura PT", sans-serif;
+font-weight: 300;
+font-size: 40px;
+}
+
+.dashboard-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.charts-row {
+  display: flex;
+  overflow-x: auto; 
+  width: 100%;
+}
+
+.charts-row .cards {
+  min-width: 400px;
+  flex-grow: 1;
+}
+
+.charts-row canvas {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stats-row .cards.stats {
+  flex: 1;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-family: "Futura PT", sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+.cards {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 50px;
+}
+
+/* Стиль для таблицы */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: Arial, sans-serif;
+}
+
+.table th,
+.table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+}
+
+.table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.table a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+/* Кнопка "Добавить бренд" */
+.admin-dashboard a[href="add.php"] {
+    display: inline-block;
+    margin: 16px 0;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-dashboard a[href="add.php"]:hover {
+    background-color: #218838;
+}
+
+
+
+.admin-info input[type="text"],
+.admin-info input[type="number"],
+.admin-info input[type="password"],
+.admin-info input[type="email"],
+.admin-info textarea,
+.admin-info select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box; 
+}
+
+/* Стили при фокусе */
+.admin-info input:focus,
+.admin-info select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+/* Стили для кнопки */
+.admin-dashboard button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    min-width: 120px;
+}
+
+.admin-dashboard button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.admin-dashboard button:active {
+    transform: translateY(0);
+}

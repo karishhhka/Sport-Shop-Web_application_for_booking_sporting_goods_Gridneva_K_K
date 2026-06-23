@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>История компании</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <nav class="menu">
+                    <ul class="menu-top">
+                        <a href="../index.html"><li class="menu-item"><img src="../img/SPORT STOPE.png" alt=""></li></a>
+                        <li class="menu-items"><a class ="link" href="../index.html">Главная</a></li>
+                        <li class="menu-items"><a class ="link" href="../catalog/index.php">Каталог</a></li>
+                        <li class="menu-items"><a class ="link" href="../сompanyHistory/index.html">История компании</a></li>
+                        <li class="menu-items"><a class ="link" href="../contacts/index.html">Контакты</a></li>
+                        <div class="menu-it">
+                            <li class="menu-it-el"><img id="open-reg-modal" src="../img/Customer.png" alt=""></li>
+                            <div id="reg-modal" class="modal">
+                              
+                                <div class="modal-content">
+                                    <span  id="close" class="close">&times;</span>
+                                      <h2 class="modal_avtor">Регистрация</h2>
+                                      <div id="error-container" style="color: red; margin-bottom: 10px;"></div> <!-- Контейнер для ошибок -->
+                                      <form class="modal_form" action="/registration.php" method="post">
+                                        <input class="input__form" type="text" placeholder="Имя:" name="name">
+                                        <input class="input__form" type="text" placeholder="Фамилия:" name="surname">
+                                        <input class="input__form" type="tel" placeholder="Номер телефона:" name="phone">
+                                        <input class="input__form" type="email" placeholder="Почта:" name="email">
+                                        <input class="input__form" type="password" placeholder="Пароль:" name="pass" >
+                                        <input class="input__form" type="password" placeholder="Подтверждение пароля:" name="doppass" >
+                                        <button class="modal__button" type="submit">Регистрация</button>
+                                    </form>
+                                  <button id="open-login-modal" class="open-login-modal">Уже есть аккаунт? Войдите</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="login-modal" class="modal">
+                                <div class="modal-content">
+                                    <span id="closeTwo" class="close">&times;</span>
+                                    <h2 class="modal_avtor">Авторизация</h2>
+                                    
+                                    <div id="auth-error-container" style="color: red; margin-bottom: 10px;"></div>
+                                    
+                                    <form id="login-form">
+                                        <input class="input__form" type="email" placeholder="Почта" name="email" required>
+                                        <input class="input__form" type="password" placeholder="Пароль:" name="password" required>
+                                        <button class="modal__button" id="signIn">Вход</button>
+                                    </form>
+                                    
+                                    <div id="qr-code-section" style="display: none; text-align: center;">
+                                        <img id="qr-code" src="" alt="QR Code" style="max-width: 200px;">
+                                        <input class="input__form" type="text" id="2fa-code" placeholder="Введите 6-значный код" maxlength="6" style="margin-top: 15px;">
+                                        <button class="modal__button" id="verify-2fa-btn" style="margin-top: 10px;">Подтвердить</button>
+                                    </div>
+                                    
+                                    <button id="open-inReg-modal" class="open-inReg-modal">Нет аккаунта? Зарегистрируйтесь</button>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>  
+                </nav> 
+            </div>
+        </div>
+    </header>
+    <div class="infopole">
+        <div class="infopole-blok"> 
+            <a href="../index.html" class="infopole-text">Главная</a>
+            <p class="infopole-text">-</p>
+            <a href="../contacts/" class="infopole-text">История компании</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <div class="info-items">
+                <h1 class="info-h1">История компании</h1>
+                <p class="info-items-text"> Наша компания была основана в 2005 году группой энтузиастов, страстно увлеченных спортом и здоровым образом жизни. За почти два десятилетия мы выросли из небольшого магазина спортивной одежды в одного из крупнейших поставщиков товаров для активного образа жизни в стране. Наша миссия — предоставлять высококачественное оборудование, одежду и аксессуары для всех видов спорта, делая занятия физкультурой доступными каждому.</p>
+            </div>
+            <img src="../img/Intersect.png" alt="" srcset="">
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot">
+                <div class="foot-items">
+                    <div>
+                        <img class="foot-items-img" src="../img/SPORT STOPEfoot.png" alt="">
+                    </div>
+                    <div class="foot-items-link">
+                        <a class="foot-items-links-text" href="../index.html">Главная</a>
+                        <a class="foot-items-links-text" href="../catalog/index.php">Каталог</a>
+                    </div>
+                    <div class="foot-items-links">
+                        <a class="foot-items-links-text" href="../contacts/index.html">Контакты</a>
+                        <a class="foot-items-links-text" href="../сompanyHistory/index.html">Компания</a>
+                    </div>
+                    <div class="foot-items-links">
+                        <a class="foot-items-links-text" href="../catalog/index.php">Товары</a>
+                        <a class="foot-items-links-text"href="../index.html">Обратная связь</a>
+                    </div>
+                    <div class="foot-items-icons">
+                        <a href="https://vk.com/kgridneva4"><img  class="foot-items-icons-img" src="../img/VK com.png" alt=""></a>
+                         <a href="https://vk.com/kgridneva4"><img class="foot-items-icons-img" src="../img/Telegram App.png" alt=""></a>
+                         <a href="https://vk.com/kgridneva4"><img class="foot-items-icons-img" src="../img/WhatsApp.png" alt=""></a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/modalwindow.js"></script>
+</body>
+</html>

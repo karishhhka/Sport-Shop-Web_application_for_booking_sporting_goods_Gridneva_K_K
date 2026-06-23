@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <nav class="menu">
+                    <ul class="menu-top">
+                        <a href="./index.html"><li class="menu-item"><img src="./img/SPORT STOPE.png" alt=""></li></a>
+                        <li class="menu-items"><a class ="link" href="./index.html">Главная</a></li>
+                        <li class="menu-items"><a class ="link" href="./catalog/index.php">Каталог</a></li>
+                        <li class="menu-items"><a class ="link" href="./сompanyHistory/index.html">История компании</a></li>
+                        <li class="menu-items"><a class ="link" href="./contacts/index.html">Контакты</a></li>
+                        <div class="menu-it">
+                            <li class="menu-it-el"><img id="open-reg-modal" src="./img/Customer.png" alt=""></li>
+                            <div id="reg-modal" class="modal">
+                              
+                                <div class="modal-content">
+                                    <span  id="close" class="close">&times;</span>
+                                      <h2 class="modal_avtor">Регистрация</h2>
+                                      <div id="error-container" style="color: red; margin-bottom: 10px;"></div> 
+                                      <form class="modal_form" action="registration.php" method="post">
+                                        <input class="input__form" type="text" placeholder="Имя:" name="name" required minlength="2" minlength="25">
+                                        <input class="input__form" type="text" placeholder="Фамилия:" name="surname" required minlength="2" minlength="25">
+                                        <input class="input__form" type="tel" placeholder="Номер телефона:" name="phone" required minlength="11" minlength="11">
+                                        <input class="input__form" type="email" placeholder="Почта:" name="email" required>
+                                        <input class="input__form" type="password" placeholder="Пароль:" name="pass" required>
+                                        <input class="input__form" type="password" placeholder="Подтверждение пароля:" name="doppass" required>
+                                        <button class="modal__button" type="submit">Регистрация</button>
+                                    </form>
+                                  <button id="open-login-modal" class="open-login-modal">Уже есть аккаунт? Войдите</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="login-modal" class="modal">
+                                <div class="modal-content">
+                                    <span id="closeTwo" class="close">&times;</span>
+                                    <h2 class="modal_avtor">Авторизация</h2>
+                                    
+                                    <div id="auth-error-container" style="color: red; margin-bottom: 10px;"></div>
+                                    
+                                    <form id="login-form">
+                                        <input class="input__form" type="email" placeholder="Почта" name="email" required>
+                                        <input class="input__form" type="password" placeholder="Пароль:" name="password" required>
+                                        <button class="modal__button" id="signIn">Вход</button>
+                                    </form>
+                                    
+
+                                    <div id="qr-code-section" style="display: none; text-align: center;">
+                                        <img id="qr-code" src="" alt="QR Code" style="max-width: 200px;">
+                                        <input class="input__form" type="text" id="2fa-code" placeholder="Введите 6-значный код" maxlength="6" style="margin-top: 15px;">
+                                        <button class="modal__button" id="verify-2fa-btn" style="margin-top: 10px;">Подтвердить</button>
+                                    </div>
+                                    
+                                    <button id="open-inReg-modal" class="open-inReg-modal">Нет аккаунта? Зарегистрируйтесь</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </ul>  
+                </nav> 
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="first">
+            <div class="slider">
+                <div class="slides">
+                    <img src="img/Group 21.jpg" alt="Image 1">
+                    <img src="img/Frame 2.jpg" alt="Image 2">
+                    <img src="img/Frame 3.jpg" alt="Image 3">
+                    <img src="img/Frame 4.svg" alt="Image 4">
+                </div>
+                <img class="clider-btn-one" id="prev" src="./img/Back.png" alt="">
+                <img class="clider-btn-two" id="next" src="./img/Forward.png" alt="">
+            </div>
+            <p class="first-text">Любой инвентарь под все виды спорта</p>
+            <div class="first-link">
+                <a class="first-link-item" href="./catalog/index.php">Каталог</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="brand">
+            <div class="brand-text">
+                <p class="brand-text-item">Популярные бренды в одном месте</p>
+            </div>
+            <div class="brand-img">
+                <img class="brand-img-item-frst" src="./img/image 5.png" alt="">
+                <img class="brand-img-item-two" src="./img/image 9.png" alt="">
+                <img class="brand-img-items-three" src="./img/image 6.png" alt="">
+                <img class="brand-img-items-four" src="./img/image 7.png" alt="">
+                <img class="brand-img-items-five" src="./img/image 8.png" alt="">
+                <img class="brand-img-items-six" src="./img/image 10.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="three">
+            <div class="three-text">
+                <p class="three-text-imts">Новая коллекция для любого спорта</p>
+                <div class="three-text-button">
+                    <a class="three-text-button-link" href="./catalog/index.php">Каталог</a>
+                </div>
+            </div>
+            <div class="three-img">
+                <img src="./img/image.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="four">
+           <div class="blok-one">
+            <div  class="blok-one-conteiner">
+                <a class="blok-one-conteiner-link" href="./catalog/index.php">перейти в каталог</a>
+            </div>
+            <p class="blok-one-text">Все для велоспорта</p>
+           </div>
+           <div class="blok-two">
+            <div  class="blok-one-conteiner">
+                <a class="blok-one-conteiner-link" href="./catalog/index.php">перейти в каталог</a>
+            </div>
+            <p  class="blok-two-text">Любой инвентарь для заниятий дома и в зале</p>
+           </div>
+           <div class="blok-three">
+            <div  class="blok-one-conteiner">
+                <a class="blok-one-conteiner-link" href="./catalog/index.php">перейти в каталог</a>
+            </div>
+            <p class="blok-three-text">Весь ассортимент для кемпинга</p>
+           </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="five">
+            <div class="blok-form">
+                <p class="blok-form-text">Если остались вопросы, пишите нам!</p>
+                <form class="form" id="emailForm">
+                    <input class="form_input" type="text" id="name" name="name" placeholder="Имя:" required>
+                    <input class="form_input" type="email" id="email" name="email"  placeholder="Почта:" required>
+                    <textarea class="form_input" id="message" name="message" placeholder="Комментарий:" required></textarea>
+                    <button  class="form_btn" type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="blok-imge">
+                <img src="./img/green.png" alt="тенисное поле">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot">
+                <div class="foot-items">
+                    <img class="foot-items-img" src="./img/SPORT STOPEfoot.png" alt="">
+                    <div class="foot-items-link">
+                        <a class="foot-items-links-text" href="./index.html">Главная</a>
+                        <a class="foot-items-links-text" href="./catalog/index.php">Каталог</a>
+                    </div>
+                    <div class="foot-items-links">
+                        <a class="foot-items-links-text" href="./contacts/index.html">Контакты</a>
+                        <a class="foot-items-links-text" href="./сompanyHistory/index.html">Компания</a>
+                    </div>
+                    <div class="foot-items-links">
+                        <a class="foot-items-links-text" href="./catalog/index.php">Товары</a>
+                        <a class="foot-items-links-text" href="#emailForm">Обратная связь</a>
+                    </div>
+                    <div class="foot-items-icons">
+                        <a href="https://vk.com/kgridneva4"><img  class="foot-items-icons-img" src="./img/VK com.png" alt=""></a>
+                         <a href="https://vk.com/kgridneva4"><img class="foot-items-icons-img" src="./img/Telegram App.png" alt=""></a>
+                         <a href="https://vk.com/kgridneva4"><img class="foot-items-icons-img" src="./img/WhatsApp.png" alt=""></a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/modalwindow.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
